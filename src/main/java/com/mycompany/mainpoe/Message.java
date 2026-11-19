@@ -20,6 +20,7 @@ import java.util.Scanner;
  * and Gson API documentation: https://javadoc.io/doc/com.google.code.gson/gson/latest/
  * The project also used ChatGPT assistance to develop and revise the code.
  */
+//I have improved the hashes and also added extra testing cases//
 public class Message {
     private final String messageID;
     private final int messageNumber;
