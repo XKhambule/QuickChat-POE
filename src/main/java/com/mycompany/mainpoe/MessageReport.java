@@ -32,7 +32,7 @@ public class MessageReport {
 
     public MessageReport() throws IOException { this(new File("messages.json")); }
 
-    /** Records only successfully completed actions; no sample data is hard-coded. */
+    //Records are only successfully completed actions; no sample data is hard-coded. //
     public void addMessage(Message message, String actionResult) {
         switch (actionResult) {
             case "Message successfully sent.":
