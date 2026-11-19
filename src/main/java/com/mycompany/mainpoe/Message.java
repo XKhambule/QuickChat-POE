@@ -73,7 +73,7 @@ public class Message {
             return "";
         }
         String[] words = message.trim().split("\\s+");
-        // Remove punctuation from the selected words, not the hash separators.
+        // Removed the punctuation from the selected words, not the hash separators.
         String first = words[0].replaceAll("[^\\p{L}\\p{N}]", "").toUpperCase(Locale.ROOT);
         String last = words[words.length - 1].replaceAll("[^\\p{L}\\p{N}]", "").toUpperCase(Locale.ROOT);
         messageHash = messageID.substring(0, 2) + ":" + messageNumber + ":" + first + last;
