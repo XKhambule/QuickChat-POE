@@ -21,6 +21,7 @@ import java.util.Scanner;
  * The project also used ChatGPT assistance to develop and revise the code.
  */
 //I have improved the hashes and also added extra testing cases//
+//included everything that had to be included//
 public class Message {
     private final String messageID;
     private final int messageNumber;
