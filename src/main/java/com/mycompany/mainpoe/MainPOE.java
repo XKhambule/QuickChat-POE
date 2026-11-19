@@ -8,6 +8,7 @@ import java.util.Set;
 
 /** Complete console-based QuickChat PoE: Parts 1, 2 and 3. */
 // Made chnages on my part 2 so my part 3 should be perfect//
+// Added the ifs and for loops//
 public class MainPOE {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
